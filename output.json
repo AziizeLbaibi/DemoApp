@@ -1,0 +1,46 @@
+{
+    "Stacks": [
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:872515270223:stack/CognitoSetup/79f036b0-5d74-11ef-804c-120689215927",
+            "StackName": "CognitoSetup",
+            "Parameters": [
+                {
+                    "ParameterKey": "UserPoolClientName",
+                    "ParameterValue": "MyPoolClientApp"
+                },
+                {
+                    "ParameterKey": "UserPoolName",
+                    "ParameterValue": "MyUserPool"
+                }
+            ],
+            "CreationTime": "2024-08-18T15:13:51.547Z",
+            "RollbackConfiguration": {},
+            "StackStatus": "CREATE_COMPLETE",
+            "DisableRollback": false,
+            "NotificationARNs": [],
+            "Capabilities": [
+                "CAPABILITY_AUTO_EXPAND",
+                "CAPABILITY_NAMED_IAM"
+            ],
+            "Outputs": [
+                {
+                    "OutputKey": "UserPoolClientId",
+                    "OutputValue": "6tbnc9jumri528a2a37no61a3v"
+                },
+                {
+                    "OutputKey": "UserPoolId",
+                    "OutputValue": "us-east-1_ra6Yo3kCj"
+                },
+                {
+                    "OutputKey": "UserPoolARN",
+                    "OutputValue": "arn:aws:cognito-idp:us-east-1:872515270223:userpool/us-east-1_ra6Yo3kCj"
+                }
+            ],
+            "Tags": [],
+            "EnableTerminationProtection": false,
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            }
+        }
+    ]
+}
